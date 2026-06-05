@@ -1,3 +1,5 @@
 RewriteEngine On
 RewriteRule ^attachments/images/thumb/europe_pol\.jpg$ /attachments/images/thumb/europe-political.jpg [R=301,L]
 RewriteRule ^attachments/images/thumb/europe_phy\.jpg$ /attachments/images/thumb/europe-physical.jpg [R=301,L]
+RewriteRule ^attachments/images/original/europe_pol\.jpg$ /attachments/images/original/europe-physical.jpg [R=301,L]
+RewriteRule ^attachments/images/original/europe_phy\.jpg$ /attachments/images/original/europe-political.jpg [R=301,L]
